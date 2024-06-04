@@ -1,0 +1,10 @@
+app:
+  # Should be the same as backend.baseUrl when using the `app-backend` plugin
+  baseUrl: https://engineering-portal.koyeb.app
+
+backend:
+  baseUrl: https://engineering-portal.koyeb.app
+  listen:
+    # The $PORT environment variable is a feature of Koyeb
+    # https://www.koyeb.com/docs/apps/services
+    port: ${PORT}
